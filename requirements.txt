@@ -16,3 +16,9 @@ tabulate==0.7.5
 termcolor==1.1.0
 wcwidth==0.1.7
 websocket-client==0.47.0
+Django==2.0.2
+pinax-templates==1.0.4
+django-bootstrap3
+django-user-accounts==2.0.3
+pinax-eventlog==2.0.3
+pinax-webanalytics==4.0.2
