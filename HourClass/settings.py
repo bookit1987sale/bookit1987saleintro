@@ -15,8 +15,9 @@ DATABASES = {
 }
 
 ALLOWED_HOSTS = [
-    "http://tway-env-1.hqyajjf3de.us-east-1.elasticbeanstalk.com/",
-    "tway-env-1.hqyajjf3de.us-east-1.elasticbeanstalk.com",
+    # "http://tway-env-1.hqyajjf3de.us-east-1.elasticbeanstalk.com/",
+    # "tway-env-1.hqyajjf3de.us-east-1.elasticbeanstalk.com",
+    "bookit-1987-intro.5da3kxmmvy.us-east-1.elasticbeanstalk.com",
     "localhost",
     "127.0.0.1",
 ]

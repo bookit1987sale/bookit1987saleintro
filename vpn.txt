@@ -1,2 +1,12 @@
 
 ping 10.130.100.19 for load server for sfi east
+
+
+container_commands:
+  01_migrate:
+    command: "python manage.py makemigrations"
+    command: "python manage.py migrate"
+    leader_only: true
+  02_collectstatic:
+    command: "python manage.py collectstatic --noinput"
+
